@@ -27,9 +27,9 @@ echo -e "${YELLOW}COMMAND 4: ruby -v${NC}"
 echo -e "${YELLOW}COMMAND 5: rails -v${NC}"
   # TODO: Add note
   rails -v
-echo -e "${YELLOW}COMMAND 6: rails new blog${NC}"
+echo -e "${YELLOW}COMMAND 6: rails new $1${NC}"
   # TODO: Add note
-  rails new blog
+  rails new $1
 echo -e "${YELLOW}COMMAND 7: UPDATE pg_database SET datistemplate=false WHERE datname='template1';${NC}"
   # TODO: Add note
   sudo -u postgres psql -d sample_db -c "UPDATE pg_database SET datistemplate=false WHERE datname='template1';"
