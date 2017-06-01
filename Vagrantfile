@@ -40,9 +40,10 @@ end
 # 1. Install vagrant, virtualmachine, and git bash
 # 2. In git bash, migrate to the directory of this vagrant file and run "vagrant up" to being provision
 # 3. The provision should complete in around 9 minutes, enter your new vagrant environment by running "vagrant ssh"
-# 4. Navigate to the rails project which is ususally located in "../../vagrant/<project name>(default is my_project)"
-# 5. Run rails server with "rails server -b0.0.0.0"
-# 6. Access your server with http://localhost:3000
+# 4. Navigate to the rails project which is ususally located in "../../vagrant/<project name>(default is platform_validator)"
+# 5. Run "bundle install"
+# 6. Run rails server with "rails server -b0.0.0.0"
+# 7. Access your server with http://localhost:3000
 
 
 #Instructions to debug
